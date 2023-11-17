@@ -1,0 +1,4 @@
+D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/CMakeFiles/OpenURLTool.dir
+D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/CMakeFiles/OpenURLTool_autogen.dir
