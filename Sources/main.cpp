@@ -2,6 +2,8 @@
 #include <QGuiApplication>
 #include <QScreen>
 #include <QRect>
+#include <QObject>
+#include <QPushButton>
 
 #include "Headers/mainwindow.h"
 #include "Headers/Popup.h"
@@ -33,17 +35,25 @@ int main(int argc, char *argv[]) {
 
     window.setGeometry(windowRect);
 
-    Input::InputListDialog inputList(&window);
-
-    inputList.show();
-
 //    window.popup(info, "我是提示内容");
 
     window.show();
 
-    if (inputList.exec() == QDialog::Accepted) {
-        UI::Mainwindow::exportURLList(inputList.getInputList(), inputList.getInputPosition());
-    }
+    auto showInputList = [&]() {
+        Input::InputListDialog inputList(&window);
+        inputList.show();
+
+        if (inputList.exec() == QDialog::Accepted) {
+            UI::Mainwindow::exportURLList(inputList.getInputList(), inputList.getInputPosition());
+        }
+    };
+
+    auto btn = QPushButton("Create URL List", &window);
+    QObject::connect(&btn, &QPushButton::clicked, showInputList);
+
+    btn.move(windowRect.width() / 2 - btn.width() / 2, windowRect.height() / 2 - btn.height() / 2);
+
+    btn.show();
 
     return QApplication::exec();
 }

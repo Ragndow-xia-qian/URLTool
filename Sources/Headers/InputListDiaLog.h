@@ -30,6 +30,8 @@ namespace Input {
 
         [[nodiscard]] QString getInputPosition() const;
 
+        ~InputListDialog() override;
+
     public slots:
 
         // 添加新的输入框项

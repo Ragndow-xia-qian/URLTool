@@ -91,4 +91,12 @@ namespace Input {
                 tr("Text Files (*.txt);;All Files (*)")
         );
     }
+
+    InputListDialog::~InputListDialog() {
+        for (int i = 0; i < listWidget->count(); ++i) {
+            QListWidgetItem *item = listWidget->item(i);
+            delete listWidget->itemWidget(item);
+            delete item;
+        }
+    }
 } // Input
