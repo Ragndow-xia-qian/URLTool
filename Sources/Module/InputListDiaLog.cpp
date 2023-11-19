@@ -17,7 +17,7 @@
 
 #include "Headers/InputListDiaLog.h"
 
-namespace Input {
+namespace URL {
     InputListDialog::InputListDialog(QWidget *parent) : QDialog(parent) {
 
         // 布局管理器
@@ -90,5 +90,13 @@ namespace Input {
                 QDir::homePath(), // 初始目录
                 tr("Text Files (*.txt);;All Files (*)")
         );
+    }
+
+    InputListDialog::~InputListDialog() {
+        for (int i = 0; i < listWidget->count(); ++i) {
+            QListWidgetItem *item = listWidget->item(i);
+            delete listWidget->itemWidget(item);
+            delete item;
+        }
     }
 } // Input

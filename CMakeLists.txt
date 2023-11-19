@@ -15,21 +15,23 @@ find_package(Qt5 COMPONENTS
         REQUIRED)
 
 add_executable(OpenURLTool Sources/main.cpp
-        Sources/mainwindow.cpp
+        Sources/Module/mainwindow.cpp
         Sources/Headers/mainwindow.h
         Sources/Forms/mainwindow.ui
         Sources/Headers/PopupTemplate.h
-        Sources/InfoPopup.cpp
+        Sources/Module/InfoPopup.cpp
         Sources/Headers/InfoPopup.h
-        Sources/ErrorPopup.cpp
+        Sources/Module/ErrorPopup.cpp
         Sources/Headers/ErrorPopup.h
-        Sources/AskPopup.cpp
+        Sources/Module/AskPopup.cpp
         Sources/Headers/AskPopup.h
-        Sources/WarningPopup.cpp
+        Sources/Module/WarningPopup.cpp
         Sources/Headers/WarningPopup.h
         Sources/Headers/Popup.h
-        Sources/InputListDiaLog.cpp
-        Sources/Headers/InputListDiaLog.h)
+        Sources/Module/InputListDiaLog.cpp
+        Sources/Headers/InputListDiaLog.h
+        Sources/Module/BrowserDiaLog.cpp
+        Sources/Headers/BrowserDiaLog.h)
 target_link_libraries(OpenURLTool
         Qt5::Core
         Qt5::Gui

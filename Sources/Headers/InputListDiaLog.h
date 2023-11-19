@@ -17,7 +17,7 @@
 #include <QPushButton>
 #include <QFileDialog> // 添加头文件用于文件对话框
 
-namespace Input {
+namespace URL {
 
     class InputListDialog : public QDialog {
     Q_OBJECT
@@ -29,6 +29,8 @@ namespace Input {
         [[nodiscard]] QStringList getInputList() const;
 
         [[nodiscard]] QString getInputPosition() const;
+
+        ~InputListDialog() override;
 
     public slots:
 
