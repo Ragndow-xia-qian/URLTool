@@ -31,6 +31,8 @@ namespace UI {
 
         static void exportURLList(const QStringList &urlList, const QString &filename);
 
+        static void openURL(const QString &url);
+
         ~Mainwindow() override;
 
     private:

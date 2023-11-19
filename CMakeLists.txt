@@ -29,7 +29,9 @@ add_executable(OpenURLTool Sources/main.cpp
         Sources/Headers/WarningPopup.h
         Sources/Headers/Popup.h
         Sources/InputListDiaLog.cpp
-        Sources/Headers/InputListDiaLog.h)
+        Sources/Headers/InputListDiaLog.h
+        Sources/BrowserDiaLog.cpp
+        Sources/Headers/BrowserDiaLog.h)
 target_link_libraries(OpenURLTool
         Qt5::Core
         Qt5::Gui

@@ -83,6 +83,12 @@
 			null
 		],
 		[
+			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/Headers/BrowserDiaLog.h",
+			"MU",
+			"HUL6J7LJEB/moc_BrowserDiaLog.cpp",
+			null
+		],
+		[
 			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/Headers/ErrorPopup.h",
 			"MU",
 			"HUL6J7LJEB/moc_ErrorPopup.cpp",
@@ -179,6 +185,11 @@
 	[
 		[
 			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/AskPopup.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/BrowserDiaLog.cpp",
 			"MU",
 			null
 		],

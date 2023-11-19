@@ -4,6 +4,9 @@
 
 // You may need to build the project (run Qt uic code generator) to get "ui_Mainwindow.h" resolved
 
+#include <QUrl>
+#include <QDesktopServices>
+
 #include "Headers/mainwindow.h"
 #include "Forms/ui_Mainwindow.h"
 
@@ -33,6 +36,10 @@ namespace UI {
         }
 
         file.close();
+    }
+
+    void Mainwindow::openURL(const QString &url) {
+        QDesktopServices::openUrl(QUrl(url));
     }
 
     Mainwindow::~Mainwindow() {

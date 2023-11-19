@@ -8,6 +8,7 @@
 #include "Headers/mainwindow.h"
 #include "Headers/Popup.h"
 #include "Headers/InputListDiaLog.h"
+#include "Headers/BrowserDiaLog.h"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
@@ -40,20 +41,35 @@ int main(int argc, char *argv[]) {
     window.show();
 
     auto showInputList = [&]() {
-        Input::InputListDialog inputList(&window);
+        URL::InputListDialog inputList(&window);
         inputList.show();
 
         if (inputList.exec() == QDialog::Accepted) {
             UI::Mainwindow::exportURLList(inputList.getInputList(), inputList.getInputPosition());
         }
     };
+    auto showBrowser = [&]() {
+        URL::BrowserDialog browser(&window);
+        browser.show();
 
-    auto btn = QPushButton("Create URL List", &window);
-    QObject::connect(&btn, &QPushButton::clicked, showInputList);
+        if (browser.exec() == QDialog::Accepted) {
+            UI::Mainwindow::openURL(browser.getURL());
+        }
+    };
 
-    btn.move(windowRect.width() / 2 - btn.width() / 2, windowRect.height() / 2 - btn.height() / 2);
+    auto btn1 = QPushButton("Create URL List", &window);
+    QObject::connect(&btn1, &QPushButton::clicked, showInputList);
 
-    btn.show();
+    btn1.move(windowRect.width() / 2 - btn1.width() / 2, windowRect.height() / 2 - btn1.height() / 2);
+
+    btn1.show();
+
+    auto btn2 = QPushButton("Open URL", &window);
+    QObject::connect(&btn2, &QPushButton::clicked, showBrowser);
+
+    btn2.move(windowRect.width() / 2 - btn2.width() / 2, windowRect.height() / 2 - btn2.height() / 2 + btn1.height());
+
+    btn2.show();
 
     return QApplication::exec();
 }

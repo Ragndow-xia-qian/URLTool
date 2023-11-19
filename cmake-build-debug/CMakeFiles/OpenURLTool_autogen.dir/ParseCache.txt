@@ -17,3 +17,6 @@ D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/WarningPopup.cpp
 D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/main.cpp
 D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/mainwindow.cpp
  uic:Forms/ui_Mainwindow.h
+D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/Headers/BrowserDiaLog.h
+ mmc:Q_OBJECT
+D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/BrowserDiaLog.cpp

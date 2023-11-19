@@ -17,7 +17,7 @@
 
 #include "Headers/InputListDiaLog.h"
 
-namespace Input {
+namespace URL {
     InputListDialog::InputListDialog(QWidget *parent) : QDialog(parent) {
 
         // 布局管理器
