@@ -242,7 +242,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Sources/mainwindow.cpp",
+			"path" : "Sources/Module/mainwindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -263,7 +263,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Sources/InfoPopup.cpp",
+			"path" : "Sources/Module/InfoPopup.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -274,7 +274,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Sources/ErrorPopup.cpp",
+			"path" : "Sources/Module/ErrorPopup.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -285,7 +285,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Sources/AskPopup.cpp",
+			"path" : "Sources/Module/AskPopup.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -296,7 +296,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Sources/WarningPopup.cpp",
+			"path" : "Sources/Module/WarningPopup.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -312,7 +312,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Sources/InputListDiaLog.cpp",
+			"path" : "Sources/Module/InputListDiaLog.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -323,7 +323,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Sources/BrowserDiaLog.cpp",
+			"path" : "Sources/Module/BrowserDiaLog.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

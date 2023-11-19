@@ -184,41 +184,41 @@
 	"SOURCES" : 
 	[
 		[
-			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/AskPopup.cpp",
+			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/Module/AskPopup.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/BrowserDiaLog.cpp",
+			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/Module/BrowserDiaLog.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/ErrorPopup.cpp",
+			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/Module/ErrorPopup.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/InfoPopup.cpp",
+			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/Module/InfoPopup.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/InputListDiaLog.cpp",
+			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/Module/InputListDiaLog.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/WarningPopup.cpp",
+			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/Module/WarningPopup.cpp",
 			"MU",
 			null
 		],
-		[ "D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/main.cpp", "MU", null ],
 		[
-			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/mainwindow.cpp",
+			"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/Module/mainwindow.cpp",
 			"MU",
 			null
-		]
+		],
+		[ "D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

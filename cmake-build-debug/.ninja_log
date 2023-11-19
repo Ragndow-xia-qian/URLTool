@@ -1,39 +1,18 @@
 # ninja log v5
-4	165	0	CMakeFiles/OpenURLTool_autogen	379e9a3820757589
+5	599	0	CMakeFiles/OpenURLTool_autogen	379e9a3820757589
 1058	7196	7219354816502829	CMakeFiles/OpenURLTool.dir/Sources/ErrorPopup.cpp.obj	e9356e71885588f9
-4	165	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include/Sources/Forms/ui_mainwindow.h	379e9a3820757589
-4	165	0	OpenURLTool_autogen/mocs_compilation.cpp	379e9a3820757589
-835	11757	7219371049574310	CMakeFiles/OpenURLTool.dir/Sources/mainwindow.cpp.obj	8ea5d7435bfc021c
-4	165	0	OpenURLTool_autogen/include/Sources/Forms/ui_mainwindow.h	379e9a3820757589
+5	599	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include/Sources/Forms/ui_mainwindow.h	379e9a3820757589
+5	599	0	OpenURLTool_autogen/mocs_compilation.cpp	379e9a3820757589
+920	11127	7220672088503300	CMakeFiles/OpenURLTool.dir/Sources/mainwindow.cpp.obj	8ea5d7435bfc021c
+5	599	0	OpenURLTool_autogen/include/Sources/Forms/ui_mainwindow.h	379e9a3820757589
 1247	7376	7219354818316161	CMakeFiles/OpenURLTool.dir/Sources/AskPopup.cpp.obj	6175bc2884981643
-4	165	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/mocs_compilation.cpp	379e9a3820757589
-4	165	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/CMakeFiles/OpenURLTool_autogen	379e9a3820757589
-868	3767	7220148108478934	CMakeFiles/OpenURLTool.dir/OpenURLTool_autogen/mocs_compilation.cpp.obj	a612ff46b8b2c67e
-165	1836	7220149064106936	CMakeFiles/OpenURLTool.dir/Sources/main.cpp.obj	3f5013ff53984416
-1837	2818	7220149069504820	D:/Code/cpp/Qt5 Projects/OpenURLTool/bin/OpenURLTool.exe	18614e6f238aac32
+5	599	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/mocs_compilation.cpp	379e9a3820757589
+5	599	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/CMakeFiles/OpenURLTool_autogen	379e9a3820757589
+823	3597	7220672013210439	CMakeFiles/OpenURLTool.dir/OpenURLTool_autogen/mocs_compilation.cpp.obj	a612ff46b8b2c67e
+600	3435	7220672011561411	CMakeFiles/OpenURLTool.dir/Sources/main.cpp.obj	3f5013ff53984416
+11430	12946	7220672100864799	D:/Code/cpp/Qt5 Projects/OpenURLTool/bin/OpenURLTool.exe	e09021da214520ce
 1156	7192	7219354816467768	CMakeFiles/OpenURLTool.dir/Sources/InfoPopup.cpp.obj	7e9405659dbd954f
 1338	7367	7219354818230540	CMakeFiles/OpenURLTool.dir/Sources/WarningPopup.cpp.obj	399a11a6567d83b2
-13	1775	7220663173017064	build.ninja	787a7f49c48a85fe
-1019	12642	7220148197187606	CMakeFiles/OpenURLTool.dir/Sources/InputListDiaLog.cpp.obj	df5da46dbf8d4098
-6	559	0	CMakeFiles/OpenURLTool_autogen	379e9a3820757589
-6	559	0	OpenURLTool_autogen/mocs_compilation.cpp	379e9a3820757589
-6	559	0	OpenURLTool_autogen/include/Sources/Forms/ui_mainwindow.h	379e9a3820757589
-6	559	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/CMakeFiles/OpenURLTool_autogen	379e9a3820757589
-6	559	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/mocs_compilation.cpp	379e9a3820757589
-6	559	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include/Sources/Forms/ui_mainwindow.h	379e9a3820757589
-560	2549	7220664518173240	CMakeFiles/OpenURLTool.dir/Sources/main.cpp.obj	3f5013ff53984416
-650	2560	7220664518282658	CMakeFiles/OpenURLTool.dir/OpenURLTool_autogen/mocs_compilation.cpp.obj	a612ff46b8b2c67e
-838	9499	7220664587654041	CMakeFiles/OpenURLTool.dir/Sources/BrowserDiaLog.cpp.obj	3e312b05992fefbc
-750	10675	7220664599398867	CMakeFiles/OpenURLTool.dir/Sources/InputListDiaLog.cpp.obj	df5da46dbf8d4098
-10675	11686	7220664605403193	D:/Code/cpp/Qt5 Projects/OpenURLTool/bin/OpenURLTool.exe	e09021da214520ce
-5	599	0	CMakeFiles/OpenURLTool_autogen	379e9a3820757589
-5	599	0	OpenURLTool_autogen/mocs_compilation.cpp	379e9a3820757589
-5	599	0	OpenURLTool_autogen/include/Sources/Forms/ui_mainwindow.h	379e9a3820757589
-5	599	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/CMakeFiles/OpenURLTool_autogen	379e9a3820757589
-5	599	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/mocs_compilation.cpp	379e9a3820757589
-5	599	0	D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include/Sources/Forms/ui_mainwindow.h	379e9a3820757589
-600	3435	7220672011561411	CMakeFiles/OpenURLTool.dir/Sources/main.cpp.obj	3f5013ff53984416
-823	3597	7220672013210439	CMakeFiles/OpenURLTool.dir/OpenURLTool_autogen/mocs_compilation.cpp.obj	a612ff46b8b2c67e
-920	11127	7220672088503300	CMakeFiles/OpenURLTool.dir/Sources/mainwindow.cpp.obj	8ea5d7435bfc021c
+13	1775	7220774594171293	build.ninja	787a7f49c48a85fe
 1031	11430	7220672091526104	CMakeFiles/OpenURLTool.dir/Sources/BrowserDiaLog.cpp.obj	3e312b05992fefbc
-11430	12946	7220672100864799	D:/Code/cpp/Qt5 Projects/OpenURLTool/bin/OpenURLTool.exe	e09021da214520ce
+750	10675	7220664599398867	CMakeFiles/OpenURLTool.dir/Sources/InputListDiaLog.cpp.obj	df5da46dbf8d4098

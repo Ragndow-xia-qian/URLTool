@@ -65,61 +65,61 @@ build CMakeFiles/OpenURLTool.dir/Sources/main.cpp.obj: CXX_COMPILER__OpenURLTool
   OBJECT_DIR = CMakeFiles\OpenURLTool.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources
 
-build CMakeFiles/OpenURLTool.dir/Sources/mainwindow.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/mainwindow.cpp || cmake_object_order_depends_target_OpenURLTool
+build CMakeFiles/OpenURLTool.dir/Sources/Module/mainwindow.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/Module/mainwindow.cpp || cmake_object_order_depends_target_OpenURLTool
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\mainwindow.cpp.obj.d
+  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\Module\mainwindow.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include" -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources" -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtCore -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/./mkspecs/win32-g++ -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtGui -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtANGLE -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\OpenURLTool.dir
-  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources
+  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources\Module
 
-build CMakeFiles/OpenURLTool.dir/Sources/InfoPopup.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/InfoPopup.cpp || cmake_object_order_depends_target_OpenURLTool
+build CMakeFiles/OpenURLTool.dir/Sources/Module/InfoPopup.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/Module/InfoPopup.cpp || cmake_object_order_depends_target_OpenURLTool
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\InfoPopup.cpp.obj.d
+  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\Module\InfoPopup.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include" -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources" -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtCore -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/./mkspecs/win32-g++ -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtGui -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtANGLE -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\OpenURLTool.dir
-  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources
+  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources\Module
 
-build CMakeFiles/OpenURLTool.dir/Sources/ErrorPopup.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/ErrorPopup.cpp || cmake_object_order_depends_target_OpenURLTool
+build CMakeFiles/OpenURLTool.dir/Sources/Module/ErrorPopup.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/Module/ErrorPopup.cpp || cmake_object_order_depends_target_OpenURLTool
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\ErrorPopup.cpp.obj.d
+  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\Module\ErrorPopup.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include" -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources" -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtCore -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/./mkspecs/win32-g++ -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtGui -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtANGLE -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\OpenURLTool.dir
-  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources
+  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources\Module
 
-build CMakeFiles/OpenURLTool.dir/Sources/AskPopup.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/AskPopup.cpp || cmake_object_order_depends_target_OpenURLTool
+build CMakeFiles/OpenURLTool.dir/Sources/Module/AskPopup.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/Module/AskPopup.cpp || cmake_object_order_depends_target_OpenURLTool
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\AskPopup.cpp.obj.d
+  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\Module\AskPopup.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include" -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources" -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtCore -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/./mkspecs/win32-g++ -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtGui -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtANGLE -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\OpenURLTool.dir
-  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources
+  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources\Module
 
-build CMakeFiles/OpenURLTool.dir/Sources/WarningPopup.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/WarningPopup.cpp || cmake_object_order_depends_target_OpenURLTool
+build CMakeFiles/OpenURLTool.dir/Sources/Module/WarningPopup.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/Module/WarningPopup.cpp || cmake_object_order_depends_target_OpenURLTool
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\WarningPopup.cpp.obj.d
+  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\Module\WarningPopup.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include" -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources" -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtCore -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/./mkspecs/win32-g++ -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtGui -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtANGLE -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\OpenURLTool.dir
-  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources
+  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources\Module
 
-build CMakeFiles/OpenURLTool.dir/Sources/InputListDiaLog.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/InputListDiaLog.cpp || cmake_object_order_depends_target_OpenURLTool
+build CMakeFiles/OpenURLTool.dir/Sources/Module/InputListDiaLog.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/Module/InputListDiaLog.cpp || cmake_object_order_depends_target_OpenURLTool
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\InputListDiaLog.cpp.obj.d
+  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\Module\InputListDiaLog.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include" -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources" -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtCore -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/./mkspecs/win32-g++ -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtGui -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtANGLE -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\OpenURLTool.dir
-  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources
+  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources\Module
 
-build CMakeFiles/OpenURLTool.dir/Sources/BrowserDiaLog.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/BrowserDiaLog.cpp || cmake_object_order_depends_target_OpenURLTool
+build CMakeFiles/OpenURLTool.dir/Sources/Module/BrowserDiaLog.cpp.obj: CXX_COMPILER__OpenURLTool_unscanned_Debug D$:/Code/cpp/Qt5$ Projects/OpenURLTool/Sources/Module/BrowserDiaLog.cpp || cmake_object_order_depends_target_OpenURLTool
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\BrowserDiaLog.cpp.obj.d
+  DEP_FILE = CMakeFiles\OpenURLTool.dir\Sources\Module\BrowserDiaLog.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/cmake-build-debug/OpenURLTool_autogen/include" -I"D:/Code/cpp/Qt5 Projects/OpenURLTool/Sources" -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtCore -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/./mkspecs/win32-g++ -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtGui -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtANGLE -isystem D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\OpenURLTool.dir
-  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources
+  OBJECT_FILE_DIR = CMakeFiles\OpenURLTool.dir\Sources\Module
 
 
 # =============================================================================
@@ -129,7 +129,7 @@ build CMakeFiles/OpenURLTool.dir/Sources/BrowserDiaLog.cpp.obj: CXX_COMPILER__Op
 #############################################
 # Link the executable D:\Code\cpp\Qt5 Projects\OpenURLTool\bin\OpenURLTool.exe
 
-build D$:/Code/cpp/Qt5$ Projects/OpenURLTool/bin/OpenURLTool.exe: CXX_EXECUTABLE_LINKER__OpenURLTool_Debug CMakeFiles/OpenURLTool.dir/OpenURLTool_autogen/mocs_compilation.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/main.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/mainwindow.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/InfoPopup.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/ErrorPopup.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/AskPopup.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/WarningPopup.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/InputListDiaLog.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/BrowserDiaLog.cpp.obj | D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Widgetsd.a D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Guid.a D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Cored.a || OpenURLTool_autogen
+build D$:/Code/cpp/Qt5$ Projects/OpenURLTool/bin/OpenURLTool.exe: CXX_EXECUTABLE_LINKER__OpenURLTool_Debug CMakeFiles/OpenURLTool.dir/OpenURLTool_autogen/mocs_compilation.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/main.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/Module/mainwindow.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/Module/InfoPopup.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/Module/ErrorPopup.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/Module/AskPopup.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/Module/WarningPopup.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/Module/InputListDiaLog.cpp.obj CMakeFiles/OpenURLTool.dir/Sources/Module/BrowserDiaLog.cpp.obj | D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Widgetsd.a D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Guid.a D$:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Cored.a || OpenURLTool_autogen
   FLAGS = -g
   LINK_LIBRARIES = D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Widgetsd.a  D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Guid.a  D:/Qt5/Qt5.13.2/5.13.2/mingw73_64/lib/libQt5Cored.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OpenURLTool.dir
