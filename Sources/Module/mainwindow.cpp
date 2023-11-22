@@ -8,12 +8,12 @@
 #include <QDesktopServices>
 
 #include "Headers/mainwindow.h"
-#include "Forms/ui_Mainwindow.h"
+#include "../Forms/ui_Mainwindow.h"
 
 namespace UI {
     Mainwindow::Mainwindow(QWidget *parent) :
             QWidget(parent), ui(new Ui::Mainwindow) {
-        ui->setupUi(this);
+        UI::Ui::Mainwindow::setupUi(this);
     }
 
     template<typename T>

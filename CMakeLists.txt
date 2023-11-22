@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
+set(CMAKE_VERBOSE_MAKEFILE ON)
 
 set(CMAKE_PREFIX_PATH "D:/Qt5/Qt5.13.2/5.13.2/mingw73_64")
 
@@ -32,6 +33,20 @@ add_executable(OpenURLTool Sources/main.cpp
         Sources/Headers/InputListDiaLog.h
         Sources/Module/BrowserDiaLog.cpp
         Sources/Headers/BrowserDiaLog.h)
+
+set(LOG_FILE "${PROJECT_SOURCE_DIR}/logs/build.log")
+
+execute_process(
+        COMMAND ${CMAKE_COMMAND} -E echo "Build output for ${CMAKE_PROJECT_NAME}" >> ${LOG_FILE}
+        COMMAND ${CMAKE_COMMAND} -E echo "--------------------------------------" >> ${LOG_FILE}
+        COMMAND ${CMAKE_COMMAND} -E echo "" >> ${LOG_FILE}
+)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fdiagnostics-color=always" CACHE STRING "" FORCE)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fdiagnostics-color=always" CACHE STRING "" FORCE)
+
+set(CMAKE_MAKE_PROGRAM "${CMAKE_MAKE_PROGRAM} 2>&1 | tee -a ${LOG_FILE}")
+
 target_link_libraries(OpenURLTool
         Qt5::Core
         Qt5::Gui
@@ -70,3 +85,8 @@ endif ()
 include_directories(Sources)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+execute_process(
+        COMMAND ${CMAKE_COMMAND} -E echo "" >> ${LOG_FILE}
+        COMMAND ${CMAKE_COMMAND} -E echo "--------------------------------------" >> ${LOG_FILE}
+)
