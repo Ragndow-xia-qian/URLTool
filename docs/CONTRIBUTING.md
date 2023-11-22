@@ -8,7 +8,7 @@ Welcome to URLTool! We appreciate your interest in contributing. By contributing
 2. Clone your forked repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/URLTool.git
+    git clone https://github.com/Ragndow-xia-qian/URLTool.git
     ```
 
 3. Create a new branch for your contribution:
