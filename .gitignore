@@ -1,4 +1,5 @@
-./test/
-./cmake-build-debug/
-./logs/
-./images/
+./.idea
+./test
+./cmake-build-debug
+./logs
+./images
