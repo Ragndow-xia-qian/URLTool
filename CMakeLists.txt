@@ -86,6 +86,9 @@ include_directories(Sources)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
+set(RESOURCES_DIR ${PROJECT_SOURCE_DIR}/images)
+file(COPY ${RESOURCES_DIR} DESTINATION ${EXECUTABLE_OUTPUT_PATH})
+
 execute_process(
         COMMAND ${CMAKE_COMMAND} -E echo "" >> ${LOG_FILE}
         COMMAND ${CMAKE_COMMAND} -E echo "--------------------------------------" >> ${LOG_FILE}

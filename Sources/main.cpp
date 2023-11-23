@@ -25,7 +25,11 @@ int main(int argc, char *argv[]) {
     Q_UNUSED(info)
     Q_UNUSED(warning)
 
+    QIcon icon{R"(images\icon.ico)"};
+
     UI::Mainwindow window;
+
+    window.setWindowIcon(icon);
 
     QRect windowRect = screenRect;
 
