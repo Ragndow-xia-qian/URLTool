@@ -1,3 +1,0 @@
-D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\OpenURLTool.dir/objects.a
-D:\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\OpenURLTool.dir/objects.a @CMakeFiles\OpenURLTool.dir\objects1.rsp
-D:\CLion\bin\mingw\bin\g++.exe  -fdiagnostics-color=always -fdiagnostics-color=always -fdiagnostics-color=always -fdiagnostics-color=always -fdiagnostics-color=always -fdiagnostics-color=always -g -Wl,--whole-archive CMakeFiles\OpenURLTool.dir/objects.a -Wl,--no-whole-archive -o "D:\Code\cpp\Qt5 Projects\OpenURLTool\bin\OpenURLTool.exe" -Wl,--out-implib,"D:\Code\cpp\Qt5 Projects\OpenURLTool\bin\libOpenURLTool.dll.a" -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OpenURLTool.dir\linkLibs.rsp
