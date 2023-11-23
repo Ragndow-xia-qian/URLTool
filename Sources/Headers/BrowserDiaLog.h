@@ -29,6 +29,8 @@ namespace URL {
 
         [[nodiscard]] QString getURL() const;
 
+        ~BrowserDialog() override;
+
     private slots:
         void onOKButtonClicked();
 

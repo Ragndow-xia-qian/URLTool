@@ -37,4 +37,12 @@ namespace URL {
     void BrowserDialog::connectSignalsAndSlots() {
         connect(okButton, &QPushButton::clicked, this, &BrowserDialog::onOKButtonClicked);
     }
+
+    BrowserDialog::~BrowserDialog() {
+        // 删除所有被new出来的对象
+        if (urlLineEdit) {
+            delete urlLineEdit;
+            urlLineEdit = nullptr; // 将指针设置为 nullptr，避免悬挂指针
+        }
+    }
 } // URL
