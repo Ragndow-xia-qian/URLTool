@@ -6,6 +6,7 @@
 
 #include <QUrl>
 #include <QDesktopServices>
+#include <QCloseEvent>
 
 #include "Headers/mainwindow.h"
 #include "../Forms/ui_Mainwindow.h"
@@ -19,6 +20,20 @@ namespace UI {
     template<typename T>
     T Mainwindow::popup(Message::PopupTemplate<T> &tool, std::string_view s) {
         return tool.popup(s);
+    }
+
+    template<>
+    void Mainwindow::popup(Message::PopupTemplate<void> &tool, std::string_view s) {
+        tool.popup(s);
+    }
+
+    void Mainwindow::closeEvent(QCloseEvent *event) {
+        Message::AskPopup ask;
+        if (this->popup(ask, "确定要退出吗")) {
+            event->accept();
+            return;
+        }
+        event->ignore();
     }
 
     void Mainwindow::exportURLList(const QStringList &urlList, const QString &filename) {

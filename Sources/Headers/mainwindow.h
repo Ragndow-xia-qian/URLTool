@@ -29,6 +29,8 @@ namespace UI {
         template<typename T>
         T popup(Message::PopupTemplate<T> &tool, std::string_view s);
 
+        void closeEvent(QCloseEvent *event) override;
+
         static void exportURLList(const QStringList &urlList, const QString &filename);
 
         static void openURL(const QString &url);
