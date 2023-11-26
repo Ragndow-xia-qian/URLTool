@@ -7,8 +7,7 @@
 
 #include "Headers/mainwindow.h"
 #include "Headers/Popup.h"
-#include "Headers/InputListDiaLog.h"
-#include "Headers/BrowserDiaLog.h"
+#include "Headers/DiaLog.h"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
