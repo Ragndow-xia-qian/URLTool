@@ -59,6 +59,14 @@ int main(int argc, char *argv[]) {
             UI::Mainwindow::openURL(browser.getURL());
         }
     };
+    auto showCustom = [&]() {
+        URL::CustomDialog custom(&window);
+        custom.show();
+
+        if (custom.exec() == QDialog::Accepted) {
+            UI::Mainwindow::exportURLList(custom.getInputList(), custom.getInputPosition());
+        }
+    };
 
     auto btn1 = QPushButton("Create URL List", &window);
     QObject::connect(&btn1, &QPushButton::clicked, showInputList);
@@ -73,6 +81,13 @@ int main(int argc, char *argv[]) {
     btn2.move(windowRect.width() / 2 - btn2.width() / 2, windowRect.height() / 2 - btn2.height() / 2 + btn1.height());
 
     btn2.show();
+
+    auto btn3 = QPushButton("Change URL List", &window);
+    QObject::connect(&btn3, &QPushButton::clicked, showCustom);
+
+    btn3.move(windowRect.width() / 2 - btn3.width() / 2, windowRect.height() / 2 - btn3.height() / 2 + btn1.height() + btn2.height());
+
+    btn3.show();
 
     return QApplication::exec();
 }

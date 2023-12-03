@@ -12,3 +12,4 @@ On v1.0.1:
 On v1.0.2:
 1. **Show icon**
 2. **Message**
+3. **Change URL List**

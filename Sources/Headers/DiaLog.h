@@ -12,5 +12,6 @@
 
 #include "InputListDiaLog.h"
 #include "BrowserDiaLog.h"
+#include "CustomDiaLog.h"
 
 #endif //OPENURLTOOL_DIALOG_H

@@ -33,7 +33,9 @@ add_executable(OpenURLTool Sources/main.cpp
         Sources/Headers/InputListDiaLog.h
         Sources/Module/BrowserDiaLog.cpp
         Sources/Headers/BrowserDiaLog.h
-        Sources/Headers/DiaLog.h)
+        Sources/Headers/DiaLog.h
+        Sources/Module/CustomDiaLog.cpp
+        Sources/Headers/CustomDiaLog.h)
 
 set(LOG_FILE "${PROJECT_SOURCE_DIR}/logs/build.log")
 
